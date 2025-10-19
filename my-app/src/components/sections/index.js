@@ -5,4 +5,5 @@ export { TestimonialSection } from "./TestimonialSection";
 export { LargeFeatureSection } from "./LargeFeatureSection";
 export { FaqSection } from "./FaqSection";
 export { CtaSection } from "./CtaSection";
+export { ContactSection } from "./ContactSection";
 export { Footer } from "./Footer";

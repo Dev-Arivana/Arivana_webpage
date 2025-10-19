@@ -9,6 +9,7 @@ import {
   PricingSection,
   LargeFeatureSection,
   CtaSection,
+  ContactSection,
 } from "../components/sections";
 import { generateConsultationMailto } from "@/config/email";
 
@@ -144,6 +145,7 @@ export default function Home() {
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis similique"
         buttons={[{ label: "Start for Free", href: "#", color: "dark" }]}
       />
+      <ContactSection />
       <Footer
         id="footer"
         copyright={footer.copyright}
